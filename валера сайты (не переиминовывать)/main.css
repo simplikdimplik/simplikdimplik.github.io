@@ -1,0 +1,29 @@
+a{
+		font-size: 45px;
+		margin: 30px 40px;
+		display: block;
+	}
+		p{margin:30px 40px ;
+          font-size: 32px;
+          color: #1b5bd5;
+          font-family: sans-serif;
+padding: 50px;
+font-family: 'Oswald', sans-serif;
+font-family: 'Rubik Mono One', sans-serif;
+		}
+		div{ background-color:#06283D ;
+width:85% ;
+margin: auto;
+box-shadow: 0 0 20px 5px rgba(0, 128, 128);		 
+		 }
+		img{
+		width: 500px;
+			height: 400px;
+			
+		}
+		h1{color:#47B5FF;}
+
+		a:hover{color: red;
+text-decoration: underline;
+
+		}
