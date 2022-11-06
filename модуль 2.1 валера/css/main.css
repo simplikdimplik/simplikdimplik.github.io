@@ -1,0 +1,30 @@
+.img-box{
+column-count: 4;
+column-gap: 5px;
+width: 90%;
+margin: auto ;}
+.image{
+max-width:100% ;
+display:block ;
+filter:sepia(1) ;
+}
+.image:hover{
+transition:1s ;	
+filter:sepia(0) ;	
+}
+.image+.image{
+	margin: 5px 0;
+}
+.heading{ 
+text-align: center;
+frot-size: 40px;
+ color: darkblue;
+ }
+
+.main{
+	background-color:sandybrown  ;
+}
+body{font-family: 'Oswald', sans-serif;}
+@media all and (max-width: 768px){.img-box{column-count: 1;
+     }
+}
